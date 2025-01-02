@@ -1,0 +1,41 @@
+[
+    {   
+        "id":"1",
+        "addedDate":"",
+        "companyName":"TATA CONSULTANCY",
+        "position":"Account Manager Executive",
+        "positionType":"Full Time Permanent Position",
+        "salary":"INR 4000-5000",
+        "workMode":"Hybrid",
+        "Timing":"",
+        "experienceRequired":"3-5 years experience",
+        "mustHaveSkills":["java","sql"],
+        "applyMode":"Company site",
+        "Description":{
+            
+                        "rolesAndResponsibilities":"Lead the development of dynamic and personalized email campaigns by leveraging Marketing Cloud capabilities and demonstrate proficiency in AMPScript.",
+                        "requirements":"At least 1 to 2 years of experience building emails and/or landing pages."
+                    }
+
+
+    },
+    {   
+        "id":"",
+        "addedDate":"",
+        "companyName":"",
+        "position":"",
+        "positionType":"",
+        "salary":"",
+        "workMode":"",
+        "Timing":"",
+        "experienceRequired":"",
+        "mustHaveSkills":"",
+        "applyMode":"",
+        "Description":{
+            "rolesAndResponsibilities":"",
+            "requirements":""
+        }
+
+
+    }
+]

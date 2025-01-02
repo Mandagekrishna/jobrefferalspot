@@ -1,0 +1,187 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    grid-template-rows: repeat(16,1fr);
+    height: 1000px;
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+ 
+
+}
+
+.element1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-column-start: 1;
+    grid-column-end: 17;
+    grid-row-start: 2;
+    grid-row-end: 4;
+   
+
+}
+
+.element1a{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-left: 20px;
+    
+}
+
+.element1b{
+    grid-column-start: 2;
+    grid-column-end:3;
+    height: 40px;
+    border-radius: 5px;
+    width: 300px;
+    justify-self: right;
+    justify-content: center;
+    margin-right: 10px;
+    align-self: start;
+   
+}
+
+.element2{
+   
+    /* margin-top: 30px; */
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-column-start: 2;
+    grid-column-end: 13;
+    grid-row-start: 3;
+    grid-row: span 4;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    margin-bottom: 30px;
+
+   
+}
+
+.element2card1{ 
+    display:grid;
+    grid-template-columns: repeat(2,1fr); 
+    grid-template-rows: repeat(2,1fr);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:3;
+    font-size: 10px;
+    justify-items: left;
+    text-align: left;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(212, 212, 212);
+box-shadow: 0 4px 30px rgba(93, 150, 255, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(0, 0, 0, 0);
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.element2card11{
+   
+    grid-column-start: 1;
+    grid-column-end: 2;
+     grid-row-start: 1;
+   
+    justify-self: left;
+    padding-left: 10px;
+
+}
+.element2card23{
+  
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+   
+    justify-self: right;
+    padding-right: 10px;
+
+}
+
+.element2card12{
+   
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    justify-self: left;
+    align-self: end;
+
+}
+
+.element3{
+    grid-template-rows: repeat(5,1fr);
+    display:grid;
+    grid-column-start: 14;
+    grid-column-end: 17;
+    grid-row-start: 4;
+    grid-row-end: 16;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    margin-right: 10px;
+
+}
+
+.element3card{
+
+   margin-bottom: 5px;
+   
+    grid-row: span 1;
+    font-size: 10px;
+    justify-items: center;
+    text-align: center;
+    border: none;
+    height: 80%;
+    border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+.skillscard{
+    grid-row-start: 3;
+    grid-row-end: 4; 
+     color:black; 
+
+
+  
+
+}
+
+.skills{
+    font-size: smaller;
+    background-color: rgba(118, 116, 255, 0.527);
+    padding:5px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+   
+}
+
+.button{
+    grid-column-start: 2;
+    margin-top: 20px;
+    justify-self: right;
+    margin-right: 10px;    
+    border-radius: 5px;
+    border: none;
+    background: none;
+    font-weight: bold;
+    /* background-color: darkgrey; */
+
+}
+
+.button:hover{
+    font-size: large;
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+[
+    {   
+        "id":"1",
+        "addedDate":"22/12/2024",
+        "companyName":"Mavlers",
+        "position":"Account Manager Executive",
+        "positionType":"Internship-Full Time",
+        "salary":"INR 4000-5000",
+        "workMode":"Hybrid",
+        "Timing":"",
+        "experienceRequired":"Freshers Applicable",
+        "mustHaveSkills":["java","sql"],
+        "applyMode":"Company site",
+        "Description":{
+            
+                        "rolesAndResponsibilities":["Lead the development of dynamic and personalized email campaigns by leveraging Marketing Cloud capabilities and demonstrate proficiency in AMPScript.",
+"Utilize strong SQL skills to create and optimize queries for data segmentation, targeting, personalization, and more within the Marketing Cloud platform.",
+"Design, implement, and manage automated marketing workflows using Automation Studio, streamlining campaign processes and improving overall efficiency.",
+"Develop and execute customer journeys through Journey Builder, driving customer engagement and achieving objectives.",
+"Establish and monitor key performance metrics, providing regular reports on campaign performance and recommending adjustments for optimization.",
+"Designing and managing data within Marketing Cloud, including data extensions, implementing custom attributes, List Management and Segmentation, and Integration with External Data Sources.",
+"Contribute to the creation and optimization of Cloud Pages to enhance the overall effectiveness of the program."],
+
+                        "requirements":["At least 1 to 2 years of experience building emails and/or landing pages.",
+                        "1+ years of experience programming within Salesforce Marketing Cloud (Exact Target) for AMP Scripts or similar platforms such as Responses, Silver pop, Adobe Campaign, Eloqua, etc."
+                        ]
+                    }
+
+
+    },
+    {   
+        "id":"",
+        "addedDate":"",
+        "companyName":"",
+        "position":"",
+        "positionType":"",
+        "salary":"",
+        "workMode":"",
+        "Timing":"",
+        "experienceRequired":"",
+        "mustHaveSkills":"",
+        "applyMode":"",
+        "Description":{
+            "rolesAndResponsibilities":"",
+            "requirements":""
+        }
+
+
+    }
+]

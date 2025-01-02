@@ -1,0 +1,66 @@
+.navdivContainer {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: 40px 1fr;
+   justify-items: center;
+   list-style: none;
+   background-color: rgba(169, 169, 169, 0.205);
+   align-items: center;
+   font-family: fantasy;
+   font-size: small;
+   margin-bottom: 10px;
+   
+
+   
+}
+
+.website{
+    grid-column-start:1 ;
+    grid-column-end:3 ;
+    font-size:large;  
+    letter-spacing: 0.5px;
+   
+ 
+
+}
+h3{
+    font-weight: lighter !important;
+    text-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.itema{     
+text-decoration: none;  
+     grid-column: 6;       
+}
+
+.itemc{
+    text-decoration: none;  
+         grid-column: 8;        
+    }
+
+.itema:visited{
+    color: inherit;
+}
+
+ /* .navdivContainer .itemb .linkMenu{
+  display:none;
+  position: relative;
+  top : 40px;
+  right: 10px;
+  width: 150px;
+
+ 
+}  */
+
+.navdivContainer .itemb:hover  .linkMenu{
+      display: block;   
+      
+
+}
+
+.itemc:hover, .itemb:hover, .itema:hover{
+    cursor: pointer;
+    font-size: larger;
+}
+
+

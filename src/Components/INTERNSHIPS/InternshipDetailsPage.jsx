@@ -23,10 +23,13 @@ export default function InternshipDetailsPage(){
             </div>
 
             <div className={styles.element2}>
+            <span>{currentInternship[0]['location']}</span>
                 <span>{currentInternship[0]['salary']}</span>
                 <span>{currentInternship[0]['positionType']}</span>
                 <span>{currentInternship[0]['workMode']}</span>
                 <span>{currentInternship[0]['experienceRequired']}</span>
+               
+
           </div>
 
 

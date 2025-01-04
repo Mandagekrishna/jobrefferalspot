@@ -7,13 +7,10 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     overflow: auto;
     min-width: 100px;
-    
-
-
     grid-template-rows: repeat(auto-fill, minmax(100px, auto)); /* Dynamic row heights */
-  gap: 20px; /* Spacing between grid items */
-  height: 100vh; /* Grid takes up full height of viewport */
-  overflow: auto; /* Allow scrolling if content overflows */
+    gap: 20px; /* Spacing between grid items */
+    height: 100vh; /* Grid takes up full height of viewport */
+    overflow: auto; /* Allow scrolling if content overflows */
  
 
 }
@@ -189,7 +186,7 @@ font-family:Verdana, Geneva, Tahoma, sans-serif
 
 .button{
     grid-column-start: 2;
-    margin-top: 20px;
+    margin-top: 50px;
     justify-self: right;
     margin-right: 10px;    
     border-radius: 5px;

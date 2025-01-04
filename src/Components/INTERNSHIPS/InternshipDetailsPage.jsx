@@ -42,7 +42,7 @@ export default function InternshipDetailsPage(){
 
             <div className={styles.element4}>
                 <h4> How to apply</h4>
-                <p>Apply at link - </p>  
+                <p>Apply at link - <a href={currentInternship[0]['applyLink']}>click here</a> </p>  
             </div>
 
 

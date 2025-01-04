@@ -1,11 +1,18 @@
 .container{
     display: grid;
     grid-template-columns: repeat(16,1fr);
-    grid-template-rows: repeat(16,1fr);
-    height: 1000px;
+    /* grid-template-rows: repeat(16,1fr);
+    height: 1000px; */
     width: 100%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    overflow: auto;
+    
 
+
+    grid-template-rows: repeat(auto-fill, minmax(100px, auto)); /* Dynamic row heights */
+  gap: 20px; /* Spacing between grid items */
+  height: 100vh; /* Grid takes up full height of viewport */
+  overflow: auto; /* Allow scrolling if content overflows */
  
 
 }
@@ -51,7 +58,10 @@
     grid-column-start: 2;
     grid-column-end: 13;
     grid-row-start: 3;
-    grid-row: span 4;
+    max-height: 300px;
+    grid-row: span 3;
+    /* position: relative; Allows for row-span behavior */
+   
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -62,8 +72,10 @@
 
 .element2card1{ 
     display:grid;
+    min-height: 140px;
     grid-template-columns: repeat(2,1fr); 
     grid-template-rows: repeat(2,1fr);
+    grid-template-rows: auto; /* Automatically adjusts the height of rows */
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -87,6 +99,7 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
     grid-column-start: 1;
     grid-column-end: 2;
      grid-row-start: 1;
+     grid-row-end: 3;
    
     justify-self: left;
     padding-left: 10px;
@@ -151,7 +164,11 @@ font-family:Verdana, Geneva, Tahoma, sans-serif
 .skillscard{
     grid-row-start: 3;
     grid-row-end: 4; 
+    min-height: 400px;
      color:black; 
+    
+     width: 600px;
+    
 
 
   

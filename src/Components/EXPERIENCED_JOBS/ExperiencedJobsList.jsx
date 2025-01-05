@@ -42,16 +42,21 @@ export default function JobsList()
                                                                 <div className={styles.element2card11}>
                                                                     <h1>{element['position']}</h1>
                                                                     <h3>{element['companyName'] + " - " + element['location']}</h3><br/>
+                                                                    <h4>Apply Mode - Referral</h4>
                                                                     <p>{element['positionType']}</p>
-                                                                    <p>{element['salary']}</p>
+                                                                   
                                                                  </div>
 
+                                                                 <div className={styles.element2card23}>
+                                                                    <p>Posted On : {element['addedDate']}</p>
+                                                                 </div>    
                                                                 <div className={styles.element2card12}>
                                                                     <p>{element['workMode']}</p>
                                                                     <p>{element['experienceRequired']}</p>                                                        
                                                                 </div>                        
                                                                     
-                                                         </div>                                            
+                                                         </div>       
+                                                                                            
                                                 
                                                        
                                                   

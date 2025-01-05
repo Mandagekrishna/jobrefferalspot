@@ -22,7 +22,7 @@ export default function JobsDetailsPage(){
             </div>
 
             <div className={styles.element2}>
-                <span>{currentJobs[0]['salary']}</span>
+                <span>Job Location - {currentJobs[0]['jobLocation']}</span>
                 <span>{currentJobs[0]['positionType']}</span>
                 <span>{currentJobs[0]['workMode']}</span>
                 <span>{currentJobs[0]['experienceRequired']}</span>
@@ -40,13 +40,18 @@ export default function JobsDetailsPage(){
 
 
             <div className={styles.element4}>
-                <h4> How to apply</h4>
-                <p>Apply at link - </p>  
+            <h4> Apply at - </h4> <p><a href={currentJobs[0]['applyAt']}>click here</a></p>
+           
+                <h4> Interview Location</h4>
+                <p>{currentJobs[0]['address']} </p>  
+                <h4> Timing</h4>
+                <p>{currentJobs[0]['timing']} </p>  
+
             </div>
 
 
             <div className={styles.element5}>
-                <h2>Roles and Responsibilities</h2>
+                <h2>Notes</h2>
                {Array.isArray(currentJobs[0]["Description"]["rolesAndResponsibilities"])?
                 currentJobs[0]["Description"]["rolesAndResponsibilities"].map(element=>
                     (<li>{element}</li>)):<></>}

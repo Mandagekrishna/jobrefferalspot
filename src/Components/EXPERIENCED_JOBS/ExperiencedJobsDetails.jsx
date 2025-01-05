@@ -23,6 +23,7 @@ export default function JobsDetailsPage(){
 
             <div className={styles.element2}>
                 <span>{currentJobs[0]['salary']}</span>
+                <span>{currentJobs[0]['location']}</span>
                 <span>{currentJobs[0]['positionType']}</span>
                 <span>{currentJobs[0]['workMode']}</span>
                 <span>{currentJobs[0]['experienceRequired']}</span>
@@ -41,7 +42,7 @@ export default function JobsDetailsPage(){
 
             <div className={styles.element4}>
                 <h4> How to apply</h4>
-                <p>Apply at link - </p>  
+                <p>Apply Mode  - {currentJobs[0]['applyMode']} <a href={`${currentJobs[0]['website']}`}>{currentJobs[0]['website']}</a> </p>  
             </div>
 
 

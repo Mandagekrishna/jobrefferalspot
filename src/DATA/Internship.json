@@ -178,27 +178,5 @@
         }
 
 
-    },
-
-
-
-    {   
-        "id":"",
-        "addedDate":"",
-        "companyName":"",
-        "position":"",
-        "positionType":"",
-        "salary":"",
-        "workMode":"",
-        "Timing":"",
-        "experienceRequired":"",
-        "mustHaveSkills":[],
-        "applyMode":"",
-        "Description":{
-            "rolesAndResponsibilities":[],
-            "requirements":[]
-        }
-
-
     }
 ]

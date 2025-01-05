@@ -40,10 +40,11 @@ export default function JobsList()
                                                         <div className={styles.element2card1}>  
 
                                                                 <div className={styles.element2card11}>
-                                                                    <h1>{element['companyName']}</h1>
-                                                                    <h3>{element['position']}</h3><br/>
+                                                                    <h1>{element['position']}</h1> 
+                                                                    <h3>{element['companyName']} - {element['location']}</h3><br/>
+                                                                  <h2>Drive date - {element['driveDate']}</h2>
                                                                     <p>{element['positionType']}</p>
-                                                                    <p>{element['salary']}</p>
+                                                                    {/* <p>{element['address']}</p> */}
                                                                  </div>
 
                                                                 <div className={styles.element2card12}>

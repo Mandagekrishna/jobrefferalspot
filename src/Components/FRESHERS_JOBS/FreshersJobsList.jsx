@@ -46,6 +46,12 @@ export default function FreshersJobsList()
                                                                     <p>{element['salary']}</p>
                                                                  </div>
 
+                                                                   <div className={styles.element2card23}>
+                                                                        <p>Posted On : {element['addedDate']}</p>
+                                                                   </div>
+
+
+
                                                                 <div className={styles.element2card12}>
                                                                     <p>{element['workMode']}</p>
                                                                     <p>{element['experienceRequired']}</p>                                                        

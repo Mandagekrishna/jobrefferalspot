@@ -26,7 +26,7 @@ export default function MiniCard(){
 
                 <NavLink to='/ExperiencedJobs' className={styles.card3}>
                 <button type='button' className={styles.button}>
-                     EXPERIENCED JOBS
+                     Experienced/Referral JOBS
                 </button>
               </NavLink> 
 

@@ -70,7 +70,7 @@
 
 .element2card1{ 
     display:grid;
-    min-height: 140px;
+    min-height: 150px;
     grid-template-columns: repeat(2,1fr); 
     grid-template-rows: repeat(2,1fr);
     grid-template-rows: auto; /* Automatically adjusts the height of rows */

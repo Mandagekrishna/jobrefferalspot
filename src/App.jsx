@@ -10,6 +10,7 @@ import FreshersJobsList from './Components/FRESHERS_JOBS/FreshersJobsList'
 import FreshersJobsDetails from './Components/FRESHERS_JOBS/FreshersJobsDetails'
 import WalkInDriveJobsList from './Components/WALK_IN_DRIVES/WalkInDriveJobsList'
 import WalkInDriveJobsDetails from './Components/WALK_IN_DRIVES/WalkInDriveJobsDetails'
+// import { Analytics } from '@vercel/analytics/next'
 
 // import style from './Styles/App.module.css'
 // import Introduction from './Components/Introduction'
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <>
+    {/* <Analytics></Analytics> */}
       <Router>
    
     <Nav></Nav>
